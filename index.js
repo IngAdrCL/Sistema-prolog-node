@@ -27,18 +27,18 @@ app.post('/query', (req, res) => {
 
                     const callback = (answer) => {
                         if (answer === false) {
-                            // 🔥 ya no hay más respuestas
+                            
                             if (results.length === 0) {
                                 return res.json({ success: true, result: "false" });
                             } else {
                                 return res.json({ success: true, result: results });
                             }
                         } else {
-                            // 🔥 convertir respuesta a texto
+                           
                             const formatted = pl.format_answer(answer);
                             results.push(formatted);
 
-                            // seguir buscando más respuestas
+                            
                             session.answer(callback);
                         }
                     };

@@ -1,18 +1,18 @@
 # Sistema con Prolog y Node.js
 
-## 📌 Descripción
+## Descripción
 Este proyecto implementa un sistema utilizando Prolog (Tau Prolog) integrado con Node.js mediante una API REST. Permite realizar consultas lógicas sobre contratos y determinar si aplican penalizaciones.
 
 ---
 
-## ⚙️ Tecnologías utilizadas
+## Tecnologías utilizadas
 - Node.js
 - Express
 - Tau Prolog
 
 ---
 
-## 🚀 Instalación
+## Instalación
 
 1. Clonar el repositorio:
 
